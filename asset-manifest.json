@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/testove-task/static/css/main.7acaea2f.css",
+    "main.js": "/testove-task/static/js/main.07d3183d.js",
+    "index.html": "/testove-task/index.html",
+    "main.7acaea2f.css.map": "/testove-task/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/testove-task/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
