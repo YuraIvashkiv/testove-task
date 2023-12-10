@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import AdCatalog from '../components/Home-page/AdCatalog';
+import AdCatalog from './AdCatalog';
 import axios from 'axios';
 
 const App = () => {
   const [ads, setAds] = useState([]);
 
   useEffect(() => {
-    axios.get('URL_ДО_ВАШОГО_MOCKAPI_RESOURCE').then(response => {
+    axios.get('https://650995c3f6553137159bb321.mockapi.io/').then(response => {
       setAds(response.data);
     });
   }, []);

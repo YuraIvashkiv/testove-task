@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Img } from './AdCard.styled';
 const AdCard = ({
   id,
   year,
@@ -20,10 +20,9 @@ const AdCard = ({
 }) => {
   return (
     <div className="ad-card">
-      <img src={img} alt={`${make} ${model}`} />
+      <Img src={img} alt={`${make} ${model}`} />
       <h2>{`${year} ${make} ${model}`}</h2>
       <p>{description}</p>
-      {/* Додайте інші дані, які вам потрібні */}
     </div>
   );
 };

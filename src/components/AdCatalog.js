@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import AdCard from './AdCard';
-import { fetchAdverts } from '../../api';
+import AdCard from './AdCard/AdCard';
+import { fetchAdverts } from '../api';
 
 const AdCatalog = () => {
   const [ads, setAds] = useState([]);
